@@ -20,6 +20,7 @@ body {
   display: flex;
   align-items: center;
 }
+
 .menu__item {
   padding: 0 13px;
 }
