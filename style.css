@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto';
+  /*font-family: 'Roboto';*/
   margin: 0px;
 }
 .wrapper {
@@ -14,6 +14,7 @@ body {
 
 .logo {
   padding: 40px 0;
+  font: bold 24px/31px "pt_serifregular", Arial, Helvetica, sans-serif;
 }
 
  .menu {
