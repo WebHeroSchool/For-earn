@@ -1,5 +1,4 @@
 body {
-  /*font-family: 'Roboto';*/
   margin: 0px;
 }
 .wrapper {
@@ -43,6 +42,7 @@ body {
  .menu {
   display: flex;
   align-items: center;
+  font-family: "robotothin", Arial, Helvetica, sans-serif;
 }
 
 .menu__item {
@@ -51,4 +51,16 @@ body {
 
 .menu__item:last-child {
   padding-right: 0;
+}
+
+.main-content__title {
+  font-family: "pt_serifregular", Arial, Helvetica, sans-serif;
+}
+
+.main-content__description {
+  font-family: "robotothin", Arial, Helvetica, sans-serif;
+}
+
+.main-content__button {
+  font-family: "robotothin", Arial, Helvetica, sans-serif;
 }
