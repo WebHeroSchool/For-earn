@@ -13,9 +13,18 @@
 
 
 
+
 @font-face {
-    font-family: 'robotothin';
-    src: url('fonts/roboto-thin-webfont.woff') format('woff');
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 

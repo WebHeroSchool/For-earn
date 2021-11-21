@@ -42,7 +42,7 @@ body {
  .menu {
   display: flex;
   align-items: center;
-  font-family: "robotothin", Arial, Helvetica, sans-serif;
+  font-family: "robotomedium", Arial, Helvetica, sans-serif;
 }
 
 .menu__item {
@@ -58,9 +58,9 @@ body {
 }
 
 .main-content__description {
-  font-family: "robotothin", Arial, Helvetica, sans-serif;
+  font-family: "robotoregular", Arial, Helvetica, sans-serif;
 }
 
 .main-content__button {
-  font-family: "robotothin", Arial, Helvetica, sans-serif;
+  font-family: "robotomedium", Arial, Helvetica, sans-serif;
 }
