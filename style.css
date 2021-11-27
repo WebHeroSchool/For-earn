@@ -9,14 +9,14 @@ body {
 .header {
   display: flex;
   justify-content: space-between; 
-  margin-bottom: 100px;
+  margin-bottom: 104px;
 }
 
 .logo {
   padding: 40px 0;
   font: bold 24px/31px "pt_serifregular", Arial, Helvetica, sans-serif;
   position: relative;
-  padding-left: 44px; 
+  padding-left: 54px; 
 }
   
 .logo__circle {
@@ -47,7 +47,7 @@ body {
 }
 
 .menu__item {
-  margin-right: 26px;
+  margin-right: 28px;
   font: 500 18px/21px "robotomedium", Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
@@ -91,15 +91,22 @@ body {
 }
 
 .main{
-  background: 99% 0% / 50% no-repeat url(img/ing.svg);
-  padding: 0 63% 134px 0;
+  background: no-repeat url(img/ing.svg);
+  background-position: 99% 30%;
+  position: relative;
+  background-size:  760px auto;
+  padding: 0 63% 225px 0;
+  margin-bottom: 66px;
   }
 
 .main__title {
+  padding-top: 100px;
   font-size: 66px;
   font-family: "pt_serifregular", Arial, Helvetica, sans-serif;
-  margin: 0 0 40px 0;
-  width: 567px;
+  margin: 0 0 35px 0;
+  line-height: 87px;
+  letter-spacing: 3px;
+  width: 700px;
 }
 
 .main__title_highlight{
@@ -107,13 +114,15 @@ body {
 }
 
 .main__description {
-  font: 18px/22px "robotoregular", Arial, Helvetica, sans-serif;
-  margin: 0 0 41px 0;
-  width: 455px;
+  font: "robotoregular", Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 0 0 63px 0;
+  width: 450px;
+  line-height: 25px;
 }
 
 .main__button {
-  font: 14px/16px "robotomedium", Arial, Helvetica, sans-serif;
+  font: 18px/16px "robotomedium", Arial, Helvetica, sans-serif;
   color: #FFF;
   background: #0056EC;
   padding: 14px 16px;
@@ -124,7 +133,7 @@ body {
 .main__button:hover {
   opacity: .5;
 }
- 
+
 .footer {
   display: flex;
   justify-content: center;
