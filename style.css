@@ -14,7 +14,7 @@ body {
 
 .logo {
   padding: 40px 0;
-  font: bold 24px/31px 'pt_serif', Arial, Helvetica, sans-serif;
+  font: bold 24px/31.8px 'pt_serif', Arial, Helvetica, sans-serif;
   position: relative;
   padding-left: 47px; 
 }
@@ -23,7 +23,7 @@ body {
   width: 28px;
   height: 28px;
   position: absolute;
-  left: 2%;
+  left: 4px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -34,7 +34,7 @@ body {
 }
 
 .logo__circle_color_blue{
-  left: 8px;
+  left: 12px;
   top: 56%;
   background: #C8DBFB;
   opacity: .7;
@@ -97,7 +97,7 @@ body {
   position: relative;
   background-size:  760px auto;
   padding: 0 63% 225px 0;
-  margin-bottom: 66px;
+  margin-bottom: 60px;
   }
 
 .main__title {
@@ -105,12 +105,12 @@ body {
   font-size: 67px;
   font-family: 'pt_serif', Arial, Helvetica, sans-serif;
   margin: 0 0 35px 0;
-  line-height: 87.45px;
+  line-height: 88px;
   width: 700px;
 }
 
 .main__title_highlight{
-  background: #ECF3FF;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ECF3FF 15%);
 }
 
 .main__description {
