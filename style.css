@@ -9,20 +9,21 @@ body {
 .header {
   display: flex;
   justify-content: space-between; 
+  margin-bottom: 104px;
 }
 
 .logo {
   padding: 40px 0;
-  font: bold 24px/31px "pt_serifregular", Arial, Helvetica, sans-serif;
+  font: bold 24px/31.8px 'pt_serif', Arial, Helvetica, sans-serif;
   position: relative;
-  padding-left: 44px; 
+  padding-left: 47px; 
 }
   
 .logo__circle {
   width: 28px;
   height: 28px;
   position: absolute;
-  left: 0%;
+  left: 4px;
   top: 50%;
   transform: translateY(-50%);
   border-radius: 50%;
@@ -33,7 +34,7 @@ body {
 }
 
 .logo__circle_color_blue{
-  left: 8px;
+  left: 12px;
   top: 56%;
   background: #C8DBFB;
   opacity: .7;
@@ -41,12 +42,14 @@ body {
 
  .menu {
   display: flex;
+  margin-right: 9px;
   align-items: center;
+  
 }
 
 .menu__item {
-  margin-right: 26px;
-  font: 500 18px/21px "robotomedium", Arial, Helvetica, sans-serif;
+  margin-right: 27px;
+  font: 500 18px/21px 'Roboto', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   position: relative;
@@ -70,11 +73,10 @@ body {
 }
 
 .menu__item:hover{
-  opacity: 0.7;
+  opacity: .7;
 }
 
 .menu__item:hover:after {
-
   position: absolute;
   left: 0;
   display: block;
@@ -89,14 +91,59 @@ body {
   width: 100%;
 }
 
-.main-content__title {
-  font-family: "pt_serifregular", Arial, Helvetica, sans-serif;
+.main{
+  background: no-repeat url(img/ing.svg);
+  background-position: 99% 30%;
+  position: relative;
+  background-size:  760px auto;
+  padding: 0 63% 225px 0;
+  margin-bottom: 60px;
+  }
+
+.main__title {
+  padding-top: 100px;
+  font-size: 67px;
+  font-family: 'pt_serif', Arial, Helvetica, sans-serif;
+  margin: 0 0 35px 0;
+  line-height: 88px;
+  width: 700px;
 }
 
-.main-content__description {
-  font-family: "robotoregular", Arial, Helvetica, sans-serif;
+.main__title_highlight{
+  background: linear-gradient(180deg, rgba(255, 255, 255, 1) 15%, #ECF3FF 15%);
 }
 
-.main-content__button {
-  font-family: "robotomedium", Arial, Helvetica, sans-serif;
+.main__description {
+  font: 400 22px/25.78px "robotoregular", Arial, Helvetica, sans-serif;
+  margin: 0 0 63px 4px;
+  width: 455px;
+}
+
+.main__button {
+  font: 18px/16px "robotomedium", Arial, Helvetica, sans-serif;
+  color: #FFF;
+  background: #0056EC;
+  padding: 17px 39px 16px 21px;
+  text-decoration: none;
+  border-radius: 4px;
+  width: 250px;
+  height: 29px;
+}
+
+.main__button:hover {
+  opacity: .5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__circle {
+  background: #C8DBFB;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  opacity: .7;
+  margin-right: 4px;
 }
