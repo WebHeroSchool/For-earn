@@ -1,6 +1,10 @@
 body {
   margin: 0px;
 }
+.main__description_span {
+    display: none;
+}
+
 .wrapper {
   width: 80%;
   margin: auto;
@@ -48,12 +52,12 @@ body {
   display: flex;
   margin-right: 9px;
   align-items: center;
-  
+  margin-top: 6px;
 }
 
 .menu__item {
   margin-right: 27px;
-  font: 500 18px/21px 'Roboto', Arial, Helvetica, sans-serif;
+  font: 500 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   position: relative;
@@ -223,7 +227,7 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 176px 0;
+    padding: 174px 0;
     list-style: none;
     background-color: #fff;
     transition-duration: 0.25s;
@@ -233,10 +237,10 @@ body {
     display: block;
     padding: 13px 24px;
     color: #333;
-    font: 600 30px/34px 'Roboto', sans-serif;
+    font:  30px/34px 'robotomedium', sans-serif;
     text-decoration: none;
     transition-duration: 0.25s;
-    margin-right: 4px;
+    margin-right: 2px;
     letter-spacing: 0.1px;
   }
   .menu__box__item:hover {
@@ -253,8 +257,7 @@ body {
   }
 
   .logo {
-    padding: 39px 0;
-    padding-left: 41px; 
+    padding-left: 44px; 
   }
     
   .logo__circle {
@@ -282,7 +285,7 @@ body {
   
   .main{
     background-size:  55% auto;
-    background-position: 100% 35%;
+    background-position: 100% 39%;
     padding: 0 63% 125px 0;
     margin-bottom: 30px;
 }
@@ -292,7 +295,6 @@ body {
     font-size: 50px;
     line-height: 66.25px;
     width: 435px;
-    margin: 0 0 38px 0;
   }
 
   .main__description {
@@ -312,7 +314,7 @@ body {
   }
 } 
 
-@media (min-width: 668px) and (max-width: 1365px) {
+@media (min-width: 866px) and (max-width: 1365px) {
   .wrapper {
     width: 91%;
   }
@@ -322,8 +324,8 @@ body {
   }
 
   .logo {
-    padding: 39px 0;
-    padding-left: 41px; 
+    padding: 40px 0;
+    padding-left: 44px; 
   }
     
   .logo__circle {
@@ -339,29 +341,29 @@ body {
   } 
   
   .menu {
-    margin-top: 9px;
-    margin-right: 0px;
+    margin-top: 4px;
+    margin-right: 2px;
     
   }
   
    .menu__item {
-    margin-right: 23px;
+    margin-right: 22px;
     font: 500 15px/16.41px 'robotomedium', Arial, Helvetica, sans-serif;
   }
   
   .main{
     background-size:  55% auto;
-    background-position: 100% 35%;
+    background-position: 100% 40%;
     padding: 0 63% 125px 0;
     margin-bottom: 30px;
   }
 
   .main__title {
-    padding-top: 52px;
+    padding-top: 50px;
     font-size: 50px;
-    line-height: 66.25px;
+    line-height: 65px;
     width: 435px;
-    margin: 0 0 38px 0;
+    margin: 0 0 40px 0;
   }
 
   .main__description {
@@ -381,7 +383,7 @@ body {
   }
 } 
 
-@media (max-width: 667px) {
+@media (min-width: 439px) and (max-width: 867px) {
   .wrapper {
     width: 87%;
   }
@@ -421,7 +423,7 @@ body {
   }
 
   .main__title {
-    padding: 273px 0 0 32px;
+    padding: 85% 0 0 30%;
     font-size: 30px;
     line-height: 39.75px;
     width: 267px;
@@ -432,7 +434,7 @@ body {
     font: 500 16px/18.75px "robotomedium", Arial, Helvetica, sans-serif;
     width: 275px;
     margin: 0 0 40px 0px;
-    padding-left: 28px;
+    padding-left: 30%;
   }
   
   .main__button {
@@ -440,5 +442,75 @@ body {
     padding: 14px 25px 13px 16px;
     width: 168px;
     height: 17px;
+  }
+
+  .main__description_span {
+    display: block;
+  }
+}
+
+@media (max-width: 440px) {
+  .wrapper {
+    width: 87%;
+  }
+
+  .header{
+    margin-bottom: 0;
+  }
+
+  .menu, .logo__name, .footer {
+    display: none;
+  }
+
+  .logo__circle {
+    left: 0px;
+  }
+  
+  .logo__circle_color_blue{
+    left: 7px;
+    top: 58%;
+  }
+
+  .logo {
+    padding: 37px 0;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+  
+  .main{
+    background-size:  86% auto;
+    background-position: 48% 4%;
+    padding: 0 63% 125px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .main__title {
+    padding: 273px 0 0 32px;
+    font-size: 30px;
+    line-height: 39.75px;
+    width: 267px;
+    margin: 0 0 32px 0;
+  }
+
+  .main__description {
+    font: 500 16px/18.75px "robotomedium", Arial, Helvetica, sans-serif;
+    width: 275px;
+    margin: 0 0 38px 0px;
+    padding-left: 28px;
+  }
+  
+  .main__button {
+    font: 14px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
+    padding: 12px 25px 13px 16px;
+    width: 168px;
+    height: 17px;
+  }
+
+  .main__description_span {
+    display: block;
   }
 }
