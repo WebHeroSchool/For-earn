@@ -484,21 +484,21 @@ body {
 
   .main__title {
     padding: 55% 0 0 0;
-    font-size: 30px;
-    line-height: 39.75px;
+    font-size: 35px;
+    line-height: 42px;
     width: 400px;
     margin: 0 0 32px 0;
   }
 
   .main__description {
-    font: 500 16px/18.75px "robotomedium", Arial, Helvetica, sans-serif;
+    font: 500 18px/20px "robotomedium", Arial, Helvetica, sans-serif;
     width: 380px;
     margin: 0 0 40px 0px;
     padding-left: 0;
   }
   
   .main__button {
-    font: 14px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
+    font: 16px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
     width: 168px;
     height: 17px;
