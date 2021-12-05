@@ -455,6 +455,11 @@ body {
     display: none;
   }
 
+  .menu__btn {
+    top: 29px;
+    right: 39px;
+  }
+
   .logo__circle {
     left: 0px;
   }
@@ -473,37 +478,41 @@ body {
   }
  
   .main{
-    background-size:  55% auto;
-    background-position: 45% 5%;
-    padding: 0 63% 125px 0;
-    margin-bottom: 30px;
+    background-size:  65% auto;
+    background-position: 50% 0%;
+    padding: 64% 20% 0 15%;
     text-align: center;
-    padding: 10% 0 0 20%;
-    text-align: left;
+    margin: 0 auto;
   }
 
   .main__title {
-    padding: 55% 0 0 0;
-    font-size: 35px;
-    line-height: 42px;
-    width: 400px;
-    margin: 0 0 32px 0;
+    padding: 0;
+    font-size: 33px;
+    line-height: 40px;
+    width: auto;
+    margin: 0;
+    padding: 0 0 32px 0;
+  
   }
 
   .main__description {
-    font: 500 18px/20px "robotomedium", Arial, Helvetica, sans-serif;
-    width: 380px;
-    margin: 0 0 40px 0px;
-    padding-left: 0;
+    font: 500 19px/20px "robotomedium", Arial, Helvetica, sans-serif;
+    width: auto; 
+    margin: 0;
+    padding: 0 0 40px 0px;
   }
   
   .main__button {
-    font: 16px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
+    font: 17px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
     width: 168px;
     height: 17px;
-    
   }
+
+  .main__description_span {
+    display: none;
+    }
+    
 }
 
 @media (max-width: 440px) {
