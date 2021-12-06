@@ -272,18 +272,20 @@ body {
     background: #C8DBFB;
     opacity: .7;
   } 
-  
+
   .menu {
-    margin-top: 6px;
-    margin-right: 0px;
-    
+    margin-right: 4px;
   }
-  
-   .menu__item {
-    margin-right: 24px;
-    font: 500 15px/16.41px 'Roboto', Arial, Helvetica, sans-serif;
+
+  .menu__item_active {
+    margin-left: -2px;
+    margin-right: 25px;
   }
-  
+  .menu__item {
+    font-size: 14px;
+    line-height: 16.41px;
+    }
+
   .main{
     background-size:  55% auto;
     background-position: 100% 39%;
@@ -361,21 +363,20 @@ body {
     background: #C8DBFB;
     opacity: .7;
   } 
-  
+
   .menu {
-    margin-top: 4px;
-    margin-right: 2px;
-    
+    margin-right: 1px;
   }
-  
-   .menu__item {
-    margin-right: 22px;
-    font: 500 15px/18px 'robotomedium', Arial, Helvetica, sans-serif;
+
+  .menu__item_active {
+    margin-left: -2px;
+    margin-right: 25px;
   }
-  
-  .left {
-    left: 4px;
-  }
+  .menu__item {
+    font-size: 14px;
+    line-height: 16.41px;
+    }
+
   .main{ 
     background-size:  55% auto;
     background-position: 100% 28%;
