@@ -38,6 +38,11 @@ body {
   
 }
 
+.logo__circle_color_dark-blue{
+  background: #0056EC;
+  animation: circle 1s  ease-out 0s 1 reverse none; 
+}
+
 @keyframes circle{
 
   0%{
@@ -47,11 +52,6 @@ body {
   left: 100%;
   }
   }
-
-.logo__circle_color_dark-blue{
-  background: #0056EC;
-  animation: circle 1s  ease-out 0s 1 reverse none; 
-}
 
 .logo__circle_color_blue{
   left: 12px;
@@ -536,6 +536,10 @@ body {
     display: none;
     }
     
+    .logo__circle_color_dark-blue, .logo__circle_color_blue {
+      animation: none;
+    }
+  
 }
 
 @media (max-width: 415px) {
@@ -603,6 +607,11 @@ body {
   .main__description_span {
     display: block;
   }
+
+  .logo__circle_color_dark-blue, .logo__circle_color_blue {
+    animation: none;
+  }
+
 }
 
 @media (min-width: 2231px) {
