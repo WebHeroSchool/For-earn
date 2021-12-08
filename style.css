@@ -527,7 +527,7 @@ body {
   
   .main__button {
     font: 17px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
-    padding: 14px 25px 13px 16px;
+    padding: 13px;
     width: 168px;
     height: 17px;
   }
