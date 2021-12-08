@@ -611,7 +611,6 @@ body {
   .logo__circle_color_dark-blue, .logo__circle_color_blue {
     animation: none;
   }
-
 }
 
 @media (min-width: 2231px) {
