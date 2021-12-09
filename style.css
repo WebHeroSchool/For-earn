@@ -61,6 +61,7 @@ body {
   0% {
     left: 1%;
   }
+
   100% {
     left: 100%;
   }
@@ -331,7 +332,7 @@ body {
     width: 367px;
     margin: 0 0 56px 0;
   }
-  
+
   .main__button {
     font: 14px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
@@ -434,7 +435,7 @@ body {
     height: 44px;
     margin-left: 0;
   }
-} 
+}
 
 @media (min-width: 769px) and (max-width: 884px) {
   .main {
@@ -544,7 +545,6 @@ body {
   .logo__circle_color_blue {
     animation: none;
   }
-  
 }
 
 @media (max-width: 415px) {
