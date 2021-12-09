@@ -378,12 +378,12 @@ body {
     padding: 40px 0;
     padding-left: 44px;
   }
-    
+
   .logo__circle {
     left: 0;
     top: 48%;
   }
-  
+
   .logo__circle_color_blue {
     left: 8px;
     top: 56%;
@@ -399,7 +399,7 @@ body {
     margin-left: -2px;
     margin-right: 25px;
   }
-  
+
   .menu__item {
     font-size: 14px;
     line-height: 16.41px;
@@ -425,7 +425,7 @@ body {
     width: 367px;
     margin: 0 0 56px 0;
   }
-  
+
   .main__button {
     font: 14px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 14px 25px 13px 16px;
@@ -493,7 +493,7 @@ body {
   .logo__circle {
     left: 0;
   }
-  
+
   .logo__circle_color_blue {
     left: 7px;
     top: 58%;
@@ -506,7 +506,7 @@ body {
   .hamburger-menu {
     display: block;
   }
- 
+
   .main {
     background-size: 65% auto;
     background-position: 50% 0%;
@@ -529,7 +529,7 @@ body {
     margin: 0;
     padding: 0 0 40px 0;
   }
-  
+
   .main__button {
     font: 17px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 13px;
@@ -540,7 +540,7 @@ body {
   .main__description_span {
     display: none;
   }
-    
+
   .logo__circle_color_dark-blue,
   .logo__circle_color_blue {
     animation: none;
@@ -565,7 +565,7 @@ body {
   .logo__circle {
     left: 0;
   }
-  
+
   .logo__circle_color_blue {
     left: 7px;
     top: 58%;
@@ -578,7 +578,7 @@ body {
   .hamburger-menu {
     display: block;
   }
-  
+
   .main {
     background-size: 86% auto;
     background-position: 48% 4%;
@@ -601,7 +601,7 @@ body {
     padding: 0;
     margin: 0 0 38px 9%;
   }
-  
+
   .main__button {
     font: 14px/16.41px "robotomedium", Arial, Helvetica, sans-serif;
     padding: 12px 25px 13px 16px;
